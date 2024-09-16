@@ -1,0 +1,124 @@
+﻿@model IEnumerable<WebMVC.Core.Models.Student>
+
+@{
+    ViewData["Title"] = "Students";
+}
+
+<h1>Students</h1>
+
+<p>
+    <a asp-action="CreateStudent">Create New</a>
+</p>
+@{
+    if (ViewBag.Result == 0)
+    {
+        <div class="text-warning">Delete failed.</div>
+    }
+    else if (ViewBag.Result > 0)
+    {
+        <div class="text-info">Delete successfully.</div>
+    }
+}
+@{
+    string sortParam = string.IsNullOrEmpty(Context.Request.Query["sort"]) ? "id" : Context.Request.Query["sort"];
+    bool descParam = string.IsNullOrEmpty(Context.Request.Query["desc"]) ? false : Boolean.Parse(Context.Request.Query["desc"]);
+}
+<div></div>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @if (sortParam == "id" && descParam == false)
+                {
+                    <a asp-action="Students" asp-route-sort="id" asp-route-desc="true">@Html.DisplayNameFor(model => model.Id)</a>
+                }
+                else
+                {
+                    <a asp-action="Students" asp-route-sort="id" asp-route-desc="false">@Html.DisplayNameFor(model => model.Id)</a>
+                }
+            </th>
+            <th>
+                @if (sortParam == "name" && descParam == false)
+                {
+                    <a asp-action="Students" asp-route-sort="name" asp-route-desc="true">@Html.DisplayNameFor(model => model.Name)</a>
+                }
+                else
+                {
+                    <a asp-action="Students" asp-route-sort="name" asp-route-desc="false">@Html.DisplayNameFor(model => model.Name)</a>
+                }
+            </th>
+            <th>
+                @if (sortParam == "dob" && descParam == false)
+                {
+                    <a asp-action="Students" asp-route-sort="dob" asp-route-desc="true">@Html.DisplayNameFor(model => model.Dob)</a>
+                }
+                else
+                {
+                    <a asp-action="Students" asp-route-sort="dob" asp-route-desc="false">@Html.DisplayNameFor(model => model.Dob)</a>
+                }
+            </th>
+            
+            <th>
+                @if (sortParam == "address" && descParam==false)
+                {
+                    <a asp-action="Students" asp-route-sort="address" asp-route-desc="true">@Html.DisplayNameFor(model => model.Address)</a>
+                }
+                else
+                {
+                    <a asp-action="Students" asp-route-sort="address" asp-route-desc="false">@Html.DisplayNameFor(model => model.Address)</a>
+                }
+            </th>
+            <th>
+                @if (sortParam == "phone" && descParam == false)
+                {
+                    <a asp-action="Students" asp-route-sort="phone" asp-route-desc="true">@Html.DisplayNameFor(model => model.Phone)</a>
+                }
+                else
+                {
+                    <a asp-action="Students" asp-route-sort="phone" asp-route-desc="false">@Html.DisplayNameFor(model => model.Phone)</a>
+                }
+            </th>
+            <th>
+                @if (sortParam == "class" && descParam == false)
+                {
+                    <a asp-action="Students" asp-route-sort="class" asp-route-desc="true">@Html.DisplayNameFor(model => model.Classes)</a>
+                }
+                else
+                {
+                    <a asp-action="Students" asp-route-sort="class" asp-route-desc="false">@Html.DisplayNameFor(model => model.Classes)</a>
+                }
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Dob)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Address)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Phone)
+                </td>
+                 <td>
+                    @Html.DisplayFor(modelItem => item.Classes)
+                </td>
+                <td>
+                    <a asp-action="EditStudent" asp-route-id="@item.Id">Edit</a> |
+                    <a asp-action="StudentDetails" asp-route-id="@item.Id">Details</a> |
+                    <a asp-action="DeleteStudent" asp-route-id="@item.Id">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

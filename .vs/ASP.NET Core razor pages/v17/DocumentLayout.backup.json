@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\src\\ASP.NET Core razor pages\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BC27A19D-1EF3-4EBD-8878-7FD46F446238}|WebMVC\\WebMVC.csproj|d:\\src\\asp.net core razor pages\\webmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC27A19D-1EF3-4EBD-8878-7FD46F446238}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC27A19D-1EF3-4EBD-8878-7FD46F446238}|WebMVC\\WebMVC.csproj|d:\\src\\asp.net core razor pages\\webmvc\\views\\home\\addclass.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC27A19D-1EF3-4EBD-8878-7FD46F446238}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\home\\addclass.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47EB41C6-D672-4E08-8061-C077B8AC83D4}|WebMVC.Core\\WebMVC.Core.csproj|d:\\src\\asp.net core razor pages\\webmvc.core\\repository\\classrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47EB41C6-D672-4E08-8061-C077B8AC83D4}|WebMVC.Core\\WebMVC.Core.csproj|solutionrelative:webmvc.core\\repository\\classrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{47EB41C6-D672-4E08-8061-C077B8AC83D4}|WebMVC.Core\\WebMVC.Core.csproj|d:\\src\\asp.net core razor pages\\webmvc.core\\irepository\\iclassrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{47EB41C6-D672-4E08-8061-C077B8AC83D4}|WebMVC.Core\\WebMVC.Core.csproj|solutionrelative:webmvc.core\\irepository\\iclassrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC27A19D-1EF3-4EBD-8878-7FD46F446238}|WebMVC\\WebMVC.csproj|d:\\src\\asp.net core razor pages\\webmvc\\views\\home\\classes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC27A19D-1EF3-4EBD-8878-7FD46F446238}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\home\\classes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC27A19D-1EF3-4EBD-8878-7FD46F446238}|WebMVC\\WebMVC.csproj|d:\\src\\asp.net core razor pages\\webmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{BC27A19D-1EF3-4EBD-8878-7FD46F446238}|WebMVC\\WebMVC.csproj|solutionrelative:webmvc\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\src\\ASP.NET Core razor pages\\WebMVC\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "WebMVC\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\src\\ASP.NET Core razor pages\\WebMVC\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "WebMVC\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAiwFYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-15T16:53:26.723Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddClass.cshtml",
+              "DocumentMoniker": "D:\\src\\ASP.NET Core razor pages\\WebMVC\\Views\\Home\\AddClass.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\Home\\AddClass.cshtml",
+              "ToolTip": "D:\\src\\ASP.NET Core razor pages\\WebMVC\\Views\\Home\\AddClass.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\Home\\AddClass.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-16T00:26:01.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ClassRepository.cs",
+              "DocumentMoniker": "D:\\src\\ASP.NET Core razor pages\\WebMVC.Core\\Repository\\ClassRepository.cs",
+              "RelativeDocumentMoniker": "WebMVC.Core\\Repository\\ClassRepository.cs",
+              "ToolTip": "D:\\src\\ASP.NET Core razor pages\\WebMVC.Core\\Repository\\ClassRepository.cs",
+              "RelativeToolTip": "WebMVC.Core\\Repository\\ClassRepository.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAwwDUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T00:09:25.323Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IClassRepository.cs",
+              "DocumentMoniker": "D:\\src\\ASP.NET Core razor pages\\WebMVC.Core\\IRepository\\IClassRepository.cs",
+              "RelativeDocumentMoniker": "WebMVC.Core\\IRepository\\IClassRepository.cs",
+              "ToolTip": "D:\\src\\ASP.NET Core razor pages\\WebMVC.Core\\IRepository\\IClassRepository.cs",
+              "RelativeToolTip": "WebMVC.Core\\IRepository\\IClassRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T00:08:08.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Classes.cshtml",
+              "DocumentMoniker": "D:\\src\\ASP.NET Core razor pages\\WebMVC\\Views\\Home\\Classes.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\Home\\Classes.cshtml",
+              "ToolTip": "D:\\src\\ASP.NET Core razor pages\\WebMVC\\Views\\Home\\Classes.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\Home\\Classes.cshtml",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB8AAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-15T22:30:53.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\src\\ASP.NET Core razor pages\\WebMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "WebMVC\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\src\\ASP.NET Core razor pages\\WebMVC\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "WebMVC\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABYAAACbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-15T22:04:38.143Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
