@@ -1,7 +1,9 @@
-﻿w@model WebMVC.Core.Models.Class
+﻿@using WebMVC.Core.Models
+@model Class
 
 @{
     ViewData["Title"] = "AddClass";
+    var students = ViewBag.Students;
 }
 
 <h1>AddClass</h1>
@@ -19,7 +21,12 @@
             </div>
             <div class="form-group">
                 <label for="studentIds" class="control-label"></label>
-                <input name="studentIds" class="form-control" />
+                <select name="studentIds" class="form-select" multiple aria-label="multiple select example">
+                    @foreach (Student student in students)
+                    {
+                        <option value="@student.Id"> @student.Name</option>
+                    }
+                </select>
             </div>
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-primary" />

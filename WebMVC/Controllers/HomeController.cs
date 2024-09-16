@@ -87,6 +87,9 @@ namespace WebMVC.Controllers
         }
         public IActionResult AddClass()
         {
+            List<Student> students = new List<Student>();
+            students = _studentRepository.GetAll();
+            ViewBag.Students = students;
             return View();
         }
         [HttpPost]
